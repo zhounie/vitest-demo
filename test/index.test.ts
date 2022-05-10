@@ -8,10 +8,10 @@ test('a', () => {
 
 const input2 = 2
 test('b', () => {
-    expect(input2).equal(3)
+    expect(input2).equal(2)
 })
 
 const input3 = 1
 test.only('c', () => {
-    expect(input3).equal(4)
+    expect(input3).equal(1)
 })

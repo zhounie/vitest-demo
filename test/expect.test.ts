@@ -11,7 +11,7 @@ test('aaa', () => {
     expect(obj).toBe(b)
 })
 
-var input = undefined
+var input = true
 test('bbb', () => {
     expect(input).toBeDefined()
 })
